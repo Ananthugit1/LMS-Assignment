@@ -1,0 +1,41 @@
+Create TABLE IF NOT EXISTS branch (
+    Cid INT AUTO_INCREMENT PRIMARY KEY,
+    Sid INT NOT NULL,
+    Sname VARCHAR(255),
+    Cname VARCHAR(255),
+    Branchadd VARCHAR(255),
+    Contact VARCHAR(15)
+);
+
+-- Insert data into the Branch table
+INSERT INTO Branch( Cid,Sid, Sname, Cname, Branchadd, Contact) VALUES
+(101,'1', 'Kerala', 'Kochi', 'LEVEL 3, AMRA 6A, Automobile Rd, Mamangalam, Palarivattom, Kochi, Kerala - 682025', '+919109515772'),
+(102, '1','Kerala', 'Kollam', 'Mata Amritanandamayi Math Main Rd, Amritapuri, Parayakadavu, Vallikavu, Kerala 690546', '+919962250988'),
+(103, '1','Kerala', 'Trivandrum', 'University of Kerala Senate House Campus, Palayam, Thiruvananthapuram, Kerala 6', '+916258746251'),
+(104, '2','Tamil Nadu', 'Chrompet', '15, 6th Main Road, south street, Chambers Colony, Chrompet Chennai – 600044.', '+914578965214'),
+(105, '2','Tamil Nadu', 'Velachery', 'No.12A Tharamani 100 Feet Road, Next to Canara bank, Tansi Nagar, Velachery, Chennai - 600042', '+912457896325'),
+(106, '2','Tamil Nadu', 'Vadapalani', 'No 189, N.S.K Salai, opposite to Kamala theatre and above Vijaya Bank, Vadapalani, Chennai - 26', '+915689742563'),
+(107, '3','New Delhi', 'Dhillika', 'Rashtrapati Bhawan, 2nd cross street, Presidents Estate, New Delhi, Delhi 110004', '+912547896325'),
+(108, '3','New Delhi', 'Lal Kot', 'Community Centre, Plot No. 1, Pocket A, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020', '+917894563258'),
+(109, '3','New Delhi', 'Kilokri', 'Gurgaon - Delhi Expy, NH-8, APS Colony, Delhi Cantonment, New Delhi, Delhi 110010', '+914598345789'),
+(110, '4','Karnataka', 'Whitefeild', '12, Sri Lakshmi Narasimha PG for Gents, Byrappa Layout, Sathya Sai Layout, Whitefield, Bengaluru, Karnataka 560066', '+917893214568'),
+(111, '4','Karnataka', 'Electronic City', 'Santegate, Hoskote Malur Rd, next to Sri Satya Convention Hall, Hoskote, Bengaluru, Karnataka 562114', '+917854123568'),
+(112, '4','Karnataka', 'Hebbal', '4Q8H+3WG, Unnamed Road, Venkatapura, Karnataka 562114', '+914578935785'),
+(113, '5','Pune', 'Lonavala', 'Bajrang Baug Gardens On, Old Mumbai - Pune Hwy, Tungarli, Lonavala, Maharashtra 410401', '+91887526435'),
+(114, '5','Pune', 'Harihar', 'WF79+M69, Harshewadi, Maharashtra 422212', '+915478962565'),
+(115, '5','Pune', 'Bhosari', 'Plot No. 77, Sector Number 7 Rd, PCNTDA, MIDC, Bhosari, Pimpri-Chinchwad, Maharashtra 411026', '+912314567852'),
+(116, '6','Telangana', 'KPHB', 'BLOCK-12, Malaysian Twp, KPHB 5th Phase, Kukatpally, Hyderabad, Telangana 500072', '+918852146354'),
+(117, '6','Telangana', 'Punjagutta', 'No:6 , 3-883, F/1A, Punjagutta Officers Colony, Somajiguda, Hyderabad, Telangana 500082', '+915542367895'),
+(118, '6','Telangana', 'Dilsukhnagar', '5a, Chaitanyapuri Main Rd, Millenium Residency, Krishna Nagar, Dilsukhnagar, Hyderabad, Telangana 500060', '+918654235718'),
+(119, '7','West Bengal', 'Kolkata', '14, Syed Amir Ali Ave, Lower Range, Beck Bagan, Ballygunge, Kolkata, West Bengal 700017', '+918795624158'),
+(120, '7','West Bengal', 'Siluguri', 'Ward No, 6, Burdwan Rd, Ward 6, Ward 4, Mahananda Para, Siliguri, West Bengal 734001', '+915478962541'),
+(121, '7','West Bengal', 'Malda', '24/A, Rabindra Ave, near Bihani Petrol Pump, 1 No Govt Colony, Malda, West Bengal 732101', '+917896541235'),
+(122, '8','Assam', 'Guwahati', 'Kahilipara Main Rd, Odalbakra, Kahilipara, Guwahati, Assam 781034', '+91725469852'),
+(123, '8','Assam', 'Tezpur', 'PR32+XXV, Napaam, Tezpur, Salmara Gaon, Assam 784028', '+919585456254'),
+(124, '8','Assam', 'Dibrugarh', 'Junaki path, near Pacca line field, Dibrugarh, Assam 786003', '+91985472516'),
+(125, '9','Arunachal Pradesh', 'Meghalaya','JM3M+5J2, Pyndengdombah Incl. Khah, Meghalaya 793120', '+918878965425'),
+(126, '9','Arunachal Pradesh', 'Shillong','Pine Villa, Golf Club, LumShyiap, Lumshyiap, Shillong, 793001', '+91782436515'),
+(127, '9','Arunachal Pradesh', 'Tawang', 'Lama Tsekhang  sho, Tawang, Arunachal Pradesh 790104', '+914587526587'),
+(128, '10','Goa', 'Panaji', 'FRRG+C6X, Unnamed Road, Altinho, Panaji, Goa 403001', '+915587426985'),
+(129, '10','Goa', 'Calangute', 'Umtav Vado, Khobra Waddo, Calangute, Goa 403519', '+916584275819'),
+(130, '10','Goa', 'Baga', 'near sun village resort, behind marathi primary school, Sankwadi, Arpora, Baga, Goa 403516', '+918754265874');
